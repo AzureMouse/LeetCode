@@ -22,11 +22,12 @@ class Solution {
         * === Algorithm ===
         * Iterate ever the array
         *  Using a conditional, verify that the array has distinct element
-        *   If an addition to the collection fails, a duplicate exists, Other the elements will be                 stored accordingly
+        *   If an addition to the collection fails, a duplicate exists
+        *   Otherwise the elements stored accordingly
         *  
         *
         * === Time Complexity ===
-        *      O(1)
+        *      O(1) - Constant time
         **/
         
         HashSet<Integer> set = new HashSet<Integer>();
