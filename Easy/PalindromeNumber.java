@@ -36,7 +36,7 @@ public class PalindromeNumber{
 
 		// Iterate over the length of s
 		for(int index = 0; index < LENGTH; index++){
-			stack.push(s.charAt(index);
+			stack.push(s.charAt(index));
 		}
 
 		// Verify if a palindrome exists
