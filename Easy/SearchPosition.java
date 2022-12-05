@@ -26,8 +26,6 @@ class SearchPosition {
         
         int low = 0;
         int high = nums.length - 1;
-        int expectedPosition = 0;
-        int counter = 0;
         
         while(low <= high){
             int middle = low + (high - low) / 2;
