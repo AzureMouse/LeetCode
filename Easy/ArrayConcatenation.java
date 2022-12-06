@@ -9,7 +9,7 @@
 *
 **/
 
-public ArrayConcatenation{
+public class ArrayConcatenation{
 	public int[] getConcatenation(int[] nums){
 		final int LENGTH = nums.LENGTH;
 		int[] numsClone = new int[LENGTH * 2];
